@@ -1,0 +1,83 @@
+/* กำหนดสีและรูปแบบพื้นฐานสำหรับทั้งหน้าเว็บ */
+body {
+    background-color: #f0f8ff; /* สีพื้นหลังของทั้งหน้า */
+    font-family: Arial, sans-serif; /* เปลี่ยนรูปแบบฟอนต์ */
+    text-align: center; /* จัดเนื้อหาทั้งหมดให้อยู่ชิดซ้าย */
+    color: #333; /* สีตัวอักษรเริ่มต้น */
+}
+
+/* กำหนดสไตล์สำหรับหัวข้อ */
+h1 {
+    color: #4682b4; /* สีของหัวข้อ */
+    font-size: 36px;
+}
+
+/* กำหนดสไตล์สำหรับคอนเทนเนอร์ฟอร์ม */
+.form-container 
+
+/* กำหนดสไตล์สำหรับรายการ (คำขอ) */
+ul {
+    list-style-type: none; /* ลบสัญลักษณ์หน้าข้อความ */
+    padding: 0;
+    width: 100%; /* กำหนดความกว้างของรายการ */
+    margin: 100px auto; /* จัดกึ่งกลาง */
+}
+
+li {
+    background-color: #ffffff;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left; /* จัดข้อความในแต่ละรายการให้ชิดซ้าย */
+}
+
+/* กำหนดสไตล์สำหรับข้อความที่เน้น (เช่น label) */
+strong {
+    color: #4682b4;
+}
+
+/* กำหนดสไตล์สำหรับป้ายกำกับ (Label) */
+label {
+    font-size: 18px;
+    color: #555;
+}
+
+/* กำหนดสไตล์สำหรับช่องกรอกข้อมูล (Input) */
+input[type="text"], input[type="email"] {
+    width: 60%;
+    padding: 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* กำหนดสไตล์สำหรับปุ่มส่งข้อมูล */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* เปลี่ยนสีปุ่มเมื่อถูกเมาส์ชี้ */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* สไตล์สำหรับลิงก์ */
+a {
+    color: #4682b4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
